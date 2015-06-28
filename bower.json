@@ -7,9 +7,6 @@
   ],
   "description": "antlr4-javascript umd module",
   "main": "release/antlr4.js",
-  "scripts": {
-    "postinstall"
-  },
   "moduleType": [
     "amd",
     "globals",
