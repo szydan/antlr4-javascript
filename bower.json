@@ -1,0 +1,23 @@
+{
+  "name": "antlr4-javascript-umd",
+  "version": "1.0.0",
+  "homepage": "https://github.com/szydan/antlr4-javascript",
+  "authors": [
+    "Szymon Danielczyk <danielczyk.szymon@gmail.com>"
+  ],
+  "description": "antlr4-javascript umd module",
+  "main": "release/antlr4.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

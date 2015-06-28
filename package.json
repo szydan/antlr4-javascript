@@ -1,0 +1,29 @@
+{
+  "name": "antlr4-javascript-umd",
+  "version": "1.0.0",
+  "description": "antlr4-javascript universal module definition",
+  "main": "release/antlr4.js",
+  "scripts": {
+    "preinstall": "browserify  main.js -o release/antlr4.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szydan/antlr4-javascript.git"
+  },
+  "keywords": [
+    "antl4",
+    "umd"
+  ],
+  "author": "Szymon Danielczyk <danielczyk.szymon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szydan/antlr4-javascript/issues"
+  },
+  "homepage": "https://github.com/szydan/antlr4-javascript",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "jsmin": "^1.0.1",
+    "antlr4": "^4.5.2"
+  }
+}
